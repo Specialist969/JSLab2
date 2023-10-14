@@ -18,6 +18,6 @@ const intervalRef = setInterval(
     () => {
         main.innerHTML = `Msg from setInterval: ${licznik++}`
     },
-    4000
+    1000
 )
 
